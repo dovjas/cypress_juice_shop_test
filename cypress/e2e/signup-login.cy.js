@@ -1,4 +1,4 @@
-import { cy } from 'Cypress';
+import { cy } from 'Cypress'
 
 describe('Signup and Login test', () => {
   const email = Math.random().toString(20).substring(2) + '@gmail.com'
